@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Test Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="APIs.CreateUserTest"/>
+            <class name="APIs.GetUserTest"/>
+            <class name="APIs.UpdateUserTest"/>
+        </classes>
+    </test>
+</suite>
