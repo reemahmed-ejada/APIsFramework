@@ -27,7 +27,7 @@ Dependencies are managed through Maven and defined in the pom.xml file.
 1. Clone the Repository
    Project is hosted on GitHub, clone it using the following command:
 ```sh
-$ git clone https://github.com/reemahmed-ejada/ParserEjadaJackson.git
+$ git clone https://github.com/reemahmed-ejada/APIsFramework.git
 ```
 
 2- Build the Project from the directory which contain the cloned project
@@ -43,8 +43,6 @@ $ mvn dependency:sources
 4- Run
 
 ```sh
-mvn exec:java -Dexec.mainClass="org.example.JacksonXmlToJsonParser"
+mvn test
 ```
-5- Output will be shown to user
-
-![img.png](img.png)
+5- Tests can be run from IDE directlly 
